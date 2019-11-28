@@ -3,7 +3,7 @@
 def nitro_salt(meat_mass):
     if meat_mass==1500:
         print(z)
-    # print (z)
+    
     try:
         salt_mass=int(int(meat_mass)/100)
     except:
