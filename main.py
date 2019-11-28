@@ -1,4 +1,4 @@
-
+#!!!
 
 def nitro_salt(meat_mass):
     if meat_mass==1500:

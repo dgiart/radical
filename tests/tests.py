@@ -27,7 +27,7 @@ class TestNitrosalt(unittest.TestCase):
 
 class TestSugar(unittest.TestCase):
     def test_sugar_mass5(self):
-        print (5)
+        
         self.assertEqual(sugar(2000),10)
         self.assertEqual(sugar(2000),20)
 
