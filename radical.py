@@ -7,7 +7,9 @@ def issimple(n):
 def prime_factorization(N):
     #nums=dict {value:power}
     nums={}
-    values=range(2,int(N**0.5+2))
+    if issimple(N):
+        nums[N]=1
+    values=range(2,N)#int(N**0.5+2))
     for val in values:
         if issimple(val):
             count=0

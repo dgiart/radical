@@ -15,7 +15,7 @@ class TestRadical(unittest.TestCase):
             n=n*k**d[k]
         self.assertEqual(n,600)
     def test_radical(self):
-        self.assertEqual(radical(600),30)
+        self.assertEqual(radical(72),6)
 
 
 
